@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+		integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Document</title>
+</head>
+<style>
+	body {
+		box-sizing: border-box;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.blog {
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.blog-card {
+		margin-right: 30px;
+		height: 85vh;
+		width: 300px;
+		border: 1px solid #cb6084;
+	}
+
+	.card-details {
+		margin-top: 30px;
+		font-family: 'Roboto', sans-serif;
+		color: #3C3C3C;
+
+		span {
+			padding: 0 30px;
+		}
+	}
+
+	.card-text {
+		padding: 30px 15px;
+		font-family: 'Roboto', sans-serif;
+		line-height: 20px;
+	}
+
+	.read-more {
+		display: inline-block;
+		width: auto;
+		border: 1px solid #cb6084;
+		background: #cb6084;
+		text-align: center;
+		padding: 15px;
+		align-content: center;
+		margin-left: 75px;
+	}
+
+	img {
+		width: 300px;
+		height: 168px;
+	}
+</style>
+
+
+<body>
+	<h1>Flexbox Blog-Card</h1>
+	<div class="blog">
+		<div class="blog-card">
+			<div class="card-img"><img src="./New York.jfif">
+				<h1>New York</h1>
+			</div>
+			<div class="card-details"><span><i class="fa fa-calendar"></i>AUG 4</span>
+				<span><i class="fa fa-heart"></i>102</span>
+			</div>
+			<div class="card-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum
+					praepositum quam bonum.
+				</p>
+			</div>
+			<div class="read-more">Read More</div>
+		</div>
+		<div class="blog-card">
+			<div class="card-img"><img src="./San Francisco.jpg">
+				<h1>San Francisco</h1>
+			</div>
+			<div class="card-details"><span><i class="fa fa-calendar"></i>AUG 1</span>
+				<span><i class="fa fa-heart"></i>265</span>
+			</div>
+			<div class="card-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si verbum sequimur, primum longius verbum
+					praepositum quam bonum.
+				</p>
+			</div>
+			<div class="read-more">Read More</div>
+		</div>
+	</div>
+</body>
+
+</html>
